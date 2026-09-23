@@ -1,0 +1,58 @@
+/* PixelMob-derived visual baseline. Map into the project's existing tokens.
+   Inter font files and a project-appropriate primary action color are inputs. */
+:root {
+  --product-font: Inter, Arial, sans-serif;
+  --product-content-max: 1200px;
+  --product-gutter: clamp(24px, 5vw, 88px);
+  --product-header-height: 72px;
+  --product-section-space: 116px;
+  --product-h1: clamp(44px, 4.7vw, 76px);
+  --product-h2: clamp(42px, 4.1vw, 64px);
+  --product-heading-weight: 600;
+  --product-heading-leading: 1.07;
+  --product-heading-tracking: -.052em;
+  --product-body-size: 17px;
+  --product-body-leading: 1.65;
+  --product-text: #181818;
+  --product-muted: #6e6e6e;
+  --product-surface: #fff;
+  --product-surface-soft: #f6f6f6;
+  --product-surface-dark: #101112;
+  --product-text-inverse: #f5f5f5;
+  --product-muted-inverse: #a4a8aa;
+  --product-action: #028858;
+  --product-action-hover: #026f48;
+  --product-data-accent: #f16c2c;
+  --product-tab-track: #e9e9eb;
+  --product-tab-selected: #fff;
+  --product-card-radius: 10px;
+  --product-media-radius: 12px;
+  --product-pill-radius: 999px;
+  --product-grid-gap: 16px;
+  --product-enter-duration: 700ms;
+  --product-enter-distance: 24px;
+  --product-enter-ease: cubic-bezier(.2, .7, .2, 1);
+  --product-tab-duration: 400ms;
+  --product-tab-distance: 6px;
+  --product-control-duration: 200ms;
+}
+
+@media (max-width: 699px) {
+  :root {
+    --product-section-space: 76px;
+    --product-h2: 39px;
+    --product-body-size: 15px;
+    --product-body-leading: 1.75;
+    --product-grid-gap: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --product-enter-duration: 0ms;
+    --product-enter-distance: 0px;
+    --product-tab-duration: 0ms;
+    --product-tab-distance: 0px;
+    --product-control-duration: 0ms;
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "DJI 参考风格产品页"
+  short_description: "从确认原型实现本次 PixelMob 风格的产品页，统一大画面、排版、素材与动效"
+  default_prompt: "请使用 $dji-product-page，把已确认原型和现有素材实现为本次 PixelMob 采用的 DJI 参考风格页面，并完成桌面与手机浏览器验证。"

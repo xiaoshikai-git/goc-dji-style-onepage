@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞书原型与文案"
+  short_description: "结合真实素材、文案容量与页面节奏，制作可以交给前端的飞书黑白灰原型"
+  default_prompt: "请使用 $feishu-website-wireframes，根据项目资料与素材，在飞书画布制作可编辑的黑白灰原型和实际文案，并提前检查 UI 落地效果。"

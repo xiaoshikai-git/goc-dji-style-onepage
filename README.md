@@ -1,10 +1,12 @@
-# Shaw 的 Onepage 网页工作流
+# GOC · DJI 参考风格产品单页
 
-**把产品资料变成飞书原型，再做成一张有 DJI 参考风格的网页。**
+**从产品资料出发，先做飞书原型，再做大画面、黑白灰的硬件产品页。**
+
+这套技能来自 PixelMob 项目的实际制作，适合沿用这类 DJI 参考风格的产品介绍页。
 
 你负责给资料、定方向、看结果；AI 负责整理文案、画原型、写前端。
 
-[看成果案例：PixelMob 审核页](https://pixelmob-review.vercel.app) · 维护：**Shaw 肖士凯** · 版本：**2026.09.23**
+[看成果案例：PixelMob 审核页](https://pixelmob-review.vercel.app) · 维护：**GOC** · 版本：**2026.09.23**
 
 ## 第一次：让 Codex 安装
 
@@ -13,7 +15,7 @@
 复制这段话给 Codex：
 
 ```text
-请从 https://github.com/xiaoshikai-git/shaw-onepage-skills 安装两个技能：
+请从 https://github.com/xiaoshikai-git/goc-dji-style-onepage 安装两个技能：
 - skills/feishu-website-wireframes
 - skills/dji-product-page
 
@@ -85,7 +87,7 @@
 仓库更新不会自动同步到你的电脑。需要更新时，把这段话发给 Codex：
 
 ```text
-请检查 https://github.com/xiaoshikai-git/shaw-onepage-skills 的最新提交，
+请检查 https://github.com/xiaoshikai-git/goc-dji-style-onepage 的最新提交，
 更新 feishu-website-wireframes 和 dji-product-page 两个技能。
 先核对本地差异并备份；有我改过的内容就保留，遇到冲突再问我，不要直接覆盖。
 完成后告诉我安装的版本和提交号。不要修改我的网页项目或已填写的需求单。
@@ -98,12 +100,12 @@
 | [feishu-website-wireframes](skills/feishu-website-wireframes/SKILL.md) | 飞书可编辑黑白原型、实际文案、素材与交接说明 |
 | [dji-product-page](skills/dji-product-page/SKILL.md) | 从确认原型实现大画面、黑白灰、胶囊 Tab、克制动效的产品页 |
 
-每个技能都是完整文件夹，`SKILL.md` 是入口，关联文件也要保留。AI 安装时可使用 Codex 的 `skill-installer`，仓库为 `xiaoshikai-git/shaw-onepage-skills`，安装路径就是上表对应的两个 `skills/…` 目录。安装器遇到已有目录时会停止；更新需另外核对差异、备份和替换。
+每个技能都是完整文件夹，`SKILL.md` 是入口，关联文件也要保留。AI 安装时可使用 Codex 的 `skill-installer`，仓库为 `xiaoshikai-git/goc-dji-style-onepage`，安装路径就是上表对应的两个 `skills/…` 目录。安装器遇到已有目录时会停止；更新需另外核对差异、备份和替换。
 
 画原型需要可操作已登录浏览器的工具与目标画板编辑权限。可选绘图脚本需要 Python 3.10+ 和 Pillow，AI 按需检查；安装技能本身不会自动获得浏览器权限。DJI 是风格参考，本包不含其品牌素材，也不是 DJI 官方规范。
 
 ## 维护与答疑
 
-**Shaw 肖士凯**。卡住时，把“停在哪一步 + 截图 + 发给 AI 的话”一起给 Shaw。
+**GOC**。卡住时，把“停在哪一步 + 截图 + 发给 AI 的话”一起给 GOC。
 
-也可以在本仓库 [Issues](https://github.com/xiaoshikai-git/shaw-onepage-skills/issues) 留问题；不要贴账号凭据或客户内部资料。
+也可以在本仓库 [Issues](https://github.com/xiaoshikai-git/goc-dji-style-onepage/issues) 留问题；不要贴账号凭据或客户内部资料。
